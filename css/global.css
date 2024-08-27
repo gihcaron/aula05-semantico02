@@ -1,0 +1,19 @@
+/*Reset básico para consistência entre navegadores*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6rem;
+    background-color: #ffff;
+    color:black;
+}
+.site-header{
+    background-color: gainsboro;
+    color: #ffff;
+    padding: 1rem 0;
+    text-align: center;
+}
