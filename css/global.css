@@ -8,12 +8,12 @@
 body{
     font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6rem;
-    background-color: #ffff;
-    color:black;
+    background-color: #fcfcfc;
+    color:rgb(0, 0, 0);
 }
 
 .site-header{
-    background-color: gainsboro;
+    background-color: rgb(64, 105, 57);
     color: #ffff;
     padding: 1rem 0;
     text-align: center;
@@ -27,5 +27,121 @@ body{
 .main-nav .nav-list{
     list-style: none;
     display: flex;
-    align-content: center;
+    justify-content: center;
+}
+
+.main-nav{
+    margin: 0 15px;
+}
+
+.main-nav .nav-link{
+    color: #f0f2f5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: 5px;
+}
+
+.main-nav .nav-link:hover{
+    color: rgb(192, 192, 192);
+}
+
+/*Conteúdo Principal*/
+.main-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 30px;
+}
+.article-content{
+    flex: 3;
+    background-color: rgb(216, 213, 213);
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 4px #3d3d3d;
+    border-radius: 5px;
+}
+
+.article-header{
+    border-bottom: 2px solid rgb(64, 105, 57);
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+.article-title{
+    color: rgb(64, 105, 57);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.article-meta{
+    color:rgb(206, 203, 203);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.article-section{
+    margin-bottom: 20px;
+
+}
+.section-title{
+    font-size: 1.4rem;
+    color: rgb(64, 105, 57);
+    margin-bottom: 10px;
+}
+
+.section-text{
+    margin-bottom: 15px;
+    color: #3d3d3d;
+    line-height: 1.0;
+}
+
+.image-figure{
+    margin-top: 20px 0;
+}
+
+.article-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption{
+    text-align: center;
+    font-size: 1.10em;
+    color: rgb(99, 153, 153);
+    margin-top: 5px;
+}
+.sidebar{
+    
+    background-color:rgb(216, 213, 213);
+    padding: 10px;
+    box-shadow: 02px 4px;
+    border-radius: 5px;
+}
+
+.sidebar-title{
+    font-size: 1.6rem;
+    color:rgb(64, 105, 57);
+    margin-bottom: 10px;
+}
+
+.sidebar-text{
+    color:#3d3d3d;
+    
+}
+.sidebar{
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.site-footer{
+    background-color: rgb(64, 105, 57);
+    color: #ffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
 }
